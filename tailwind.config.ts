@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'pd': '375px', 
+        'cd':"1440px"
+      },
     },
   },
   plugins: [],
