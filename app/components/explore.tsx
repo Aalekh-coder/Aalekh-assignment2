@@ -19,27 +19,28 @@ const Explore = () => {
 
       {/* end of nav bar  all done */}
       <div
-        className="w-full flex flex-col items-center justify-center h-[10rem] bg-contain bg-no-repeat -z-30 rounded-xl pd:w-[22rem] lg:rounded-lg xl:rounded-lg lg:mt-5 sm:h-[20rem] md:w-full lg:h-[28rem] xl:h-[40rem] 2xl:h-[45rem] mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto"
+    
+        className="flex flex-col items-center justify-center bg-cover bg-no-repeat h-[10rem] mx-5 rounded-xl pd:w-[22rem] lg:rounded-lg xl:rounded-lg lg:mt-5 sm:w-[95vw] sm:h-[18rem] md:w-full lg:h-[28rem] xl:h-[30rem] 2xl:h-[45rem] lg:w-[90vw] lg:mx-auto xl:mx-auto 2xl:mx-auto"
         style={{ backgroundImage: "url('/assets/mountain.png')" }}
       >
         <div className="flex flex-col items-center">
           <img
             src="/assets/TRAVEL (1).png"
-            className="sm:h-[4rem] my-[1.5rem] md:my-[3rem] md:h-[4rem] lg:h-[6rem] xl:h-[8.5rem]"
+            className="sm:h-[3rem] sm:mt-6 mb-[1.5rem] md:my-[3rem] md:h-[4rem] lg:h-[6rem] xl:h-[5rem] xl:mt-[8rem]"
           />
           <img
             src="/assets/text.png"
-            className="sm:h-[3.9rem] md:h-[5rem] lg:h-[7rem] xl:h-[8rem] lg:mb-[2.3rem] xl:mb-[7.5rem] 2xl:h-[10rem]"
+            className="sm:h-[5rem] md:h-[5rem] lg:h-[7rem] xl:h-[8rem] lg:mb-[2.3rem] xl:mb-[7.5rem] 2xl:h-[10rem]"
           />
         </div>
       </div>
 
       {/* Explore our curated tower ltinerraries */}
-      <div>
+      <div className="mt-10">
         <div className="">
           <img
             src="/assets/text2.png"
-            className="w-[90vw] mx-auto my-5 md:w-[85vw] lg:w-[70vw]"
+            className="w-[90vw] mx-auto my-5 md:w-[65vw] lg:w-[70vw]"
           />
         </div>
 
@@ -56,22 +57,16 @@ const Explore = () => {
 
           <div
             className="h-[16rem] w-[10rem] bg-contain bg-no-repeat -z-30 rounded-xl sm:h-[30rem] sm:w-[20rem] md:h-[35rem] xl:mx-auto"
-            style={{ backgroundImage: "url('/assets/darjeeling.png')" }}
+            style={{ backgroundImage: "url('/assets/green.png')" }}
           >
-            <img
-              src="/assets/text3.png"
-              className="mt-[11rem] w-[18rem] sm:mt-[22rem] md:mt-[25rem] md:ml-[2rem]"
-            />
+            
           </div>
 
           <div
             className="hidden lg:block h-[16rem] w-[10rem] bg-contain bg-no-repeat -z-30 rounded-xl sm:h-[30rem] sm:w-[20rem] md:h-[35rem] xl:mx-auto"
-            style={{ backgroundImage: "url('/assets/darjeeling.png')" }}
+            style={{ backgroundImage: "url('/assets/gate.png')" }}
           >
-            <img
-              src="/assets/text3.png"
-              className="mt-[11rem] w-[18rem] sm:mt-[22rem] md:mt-[25rem] md:ml-[2rem]"
-            />
+           
           </div>
 
           <div

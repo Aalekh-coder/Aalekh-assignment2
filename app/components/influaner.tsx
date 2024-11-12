@@ -6,11 +6,11 @@ const Influaner = () => {
       <div className="flex items-center justify-center">
         <img
           src="/assets/OurInfluencers.png"
-          className="sm:h-[2.5rem] md:h-[3.5rem]"
+          className="sm:h-[2.5rem] md:h-[3.5rem] lg:h-[2.5rem]"
         />
       </div>
 
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between sm:mx-8">
         <img
           src="/assets/janat.png"
           className="rounded-full h-[5rem] sm:h-[10rem] md:h-[13rem]"

@@ -10,10 +10,10 @@ function Faq() {
   return (
     <div className="mt-5">
       <div className="flex items-center justify-center">
-        <img src="/assets/Title.png" alt="Title" className="sm:h-[10rem] lg:h-[12rem] xl:h-[14rem] 2xl:h-[17rem]" />
+        <img src="/assets/Title.png" alt="Title" className="sm:h-[10rem] lg:h-[12rem] xl:h-[14rem] 2xl:h-[15rem]" />
       </div>
 
-      <div className="px-3">
+      <div className="px-5 md:px-10 xl:px-[12.5rem] 2xl:px-[10.75rem]">
 
         <div className="rounded-2xl my-5 ">
           <Accordion className="rounded-2xl xl:p-3">

@@ -2,7 +2,7 @@ import React from "react";
 
 const Monetization = () => {
   return (
-    <div className="lg:flex mt-5">
+    <div className="lg:flex mt-5 mb-8">
       <div className="flex items-center justify-center">
         <img
           src="/assets/monetize.png"
@@ -11,7 +11,7 @@ const Monetization = () => {
       </div>
 
       {/* second main div  */}
-      <div className="xl:w-[50vw] xl:mx-auto">
+      <div className="xl:w-[50vw] xl:mx-auto lg:w-[60vw]">
         <div className="flex gap-4 justify-around mt-[1rem] sm:mt-[2rem]">
           <div className="bg-gray-900 flex flex-col items-center justify-center h-[17rem] w-[9rem] rounded-xl sm:h-[27rem] sm:w-[16rem] lg:h-[33rem] lg:w-[23rem]">
             <img src="/assets/text6.png" className="sm:h-[10rem]" />

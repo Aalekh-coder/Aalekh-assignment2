@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="">
+    <div className="sm:mx-[3rem]">
       <div className="md:flex lg:flex-col">
         <div className="px-5 py-9 ">
           <img
